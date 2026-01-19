@@ -16,4 +16,6 @@ def average(*args):
     return sum(values) / len(values)
 
 # Example usage
+print(average([10, 20, 30]))
+print(average((10, 20, 30)))
 print(average(10, 20, 30))
