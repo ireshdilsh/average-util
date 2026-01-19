@@ -8,7 +8,6 @@ def average(*args):
         data = args[0]
     else:
         data = args
-        
     if not data:
         raise ValueError("At least one number is required to compute the average.")
     
